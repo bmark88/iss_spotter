@@ -105,7 +105,7 @@ const nextISSTimesForMyLocation = (callback) => {
           callback(err, null);
           return;
         }
-
+        
         callback(null, nextPasses);
         return;
       });
